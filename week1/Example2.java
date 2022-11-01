@@ -1,4 +1,6 @@
-// java operators 
+
+public class Example2 {
+    // java operators 
 // + - * / % ++ -- += -= *= /= %=
 // == != > < >= <=
 // && || !
@@ -33,24 +35,26 @@
 // private - access modifier - allows access to the class from inside the class only
 // protected - access modifier - allows access to the class from inside the class and subclasses
 // default - access modifier - allows access to the class from inside the package only
-
-// string concatenation
-System.out.println("Hello" + " " + "World");
-System.out.println("Hello" + " " + 3);
-System.out.println("Hello" + " " + 3.0);
-System.out.println("Hello" + " " + true);
-System.out.println("Hello" + " " + false);
-System.out.println("Hello" + " " + 3 + 3);
-System.out.println("Hello" + " " + (3 + 3));
-System.out.println("Hello" + " " + 3 + 3 + 3);
-System.out.println("Hello" + " " + (3 + 3 + 3));
-// string concatenation with variables
-// string concatenation - String + String = String
-String name = "Hilarimar";
-System.out.println("Hello" + " " + name);
-System.out.println("Hello" + " " + name + " " + name);
-String greeting = "Hello";
-System.out.println(greeting + " " + name);
-int number = 9;
-System.out.println(greeting + " " + name + " " + number);
-System.out.println(greeting + ", my name is " + name + " my favorite number is " + number);
+    public static void main(String[] args) {
+        // string concatenation
+        System.out.println("Hello" + " " + "World");
+        System.out.println("Hello" + " " + 3);
+        System.out.println("Hello" + " " + 3.0);
+        System.out.println("Hello" + " " + true);
+        System.out.println("Hello" + " " + false);
+        System.out.println("Hello" + " " + 3 + 3);
+        System.out.println("Hello" + " " + (3 + 3));
+        System.out.println("Hello" + " " + 3 + 3 + 3);
+        System.out.println("Hello" + " " + (3 + 3 + 3));
+        // string concatenation with variables
+        // string concatenation - String + String = String
+        String name = "Hilarimar";
+        System.out.println("Hello" + " " + name);
+        System.out.println("Hello" + " " + name + " " + name);
+        String greeting = "Hello";
+        System.out.println(greeting + " " + name);
+        int number = 9;
+        System.out.println(greeting + " " + name + " " + number);
+        System.out.println(greeting + ", my name is " + name + " my favorite number is " + number);
+    }
+}

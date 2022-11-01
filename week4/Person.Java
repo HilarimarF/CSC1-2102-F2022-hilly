@@ -14,11 +14,10 @@ Public class Person {
 
     public person(string name) {
         this.name = name;
-
        // count++;
     }}
 
     public person(){
         name = "John Doe";
-        
+
     }
